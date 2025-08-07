@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+
+/* HEADER */
+
+.header{
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.header1 nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.header2 nav a{
+    text-decoration: none;
+}
+
+.blanco{
+    color: white;
+}
+
+.gris{
+    color: rgb(179, 177, 177);
+}
+
+
+/* MAIN */
+
+main{
+
+}
+
+.div1 nav a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    color: white;
+}
+
+/* FOOTER */
+
+footer{
+    color: rgb(201, 198, 198);
+}
+
+footer nav a{
+    text-decoration: none;
+    color: rgb(201, 198, 198);
+}
