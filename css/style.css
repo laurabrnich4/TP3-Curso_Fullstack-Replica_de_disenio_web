@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    background-color: gray;
 }
 
 
@@ -13,15 +12,39 @@ body{
 
 .header{
     background-color: rgba(240, 248, 255, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 110px;
 }
 
-.header1 nav a{
+.header1{
+    display: flex;
+    align-items: flex-end;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.header1 a{
     color: white;
     text-decoration: none;
 }
 
+.header1 p{
+    margin: 0px 9px;
+}
+
+.header1:hover{
+    color: aqua;
+}
+
 .header2 nav a{
     text-decoration: none;
+    margin-left: 15px;
+}
+
+.barra{
+    color: white;
+    font-size: 14px;
 }
 
 .blanco{
@@ -36,25 +59,220 @@ body{
 /* MAIN */
 
 main{
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 200;
+}
 
+.hero{
+    /* position: absolute; */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 72.7vh;
+    /* position: relative; */
+    /* letter-spacing: 2px; */
+}
+
+.div1{
+    padding: 68px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 200;
 }
 
 .div1 nav a{
     color: white;
     text-decoration: none;
+    margin-right: 20px;
 }
 
-h2{
-    color: white;
+.hover:hover{
+    color: aqua;
+    transform: scale(1.2);
 }
+
+.div2 h2{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section1{
+    margin-top: 20px;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    color: rgb(63, 62, 62);
+    font-size: 15px;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.div4{
+    margin-top: 150px;
+    margin-left: 57px;
+}
+
+.div3{
+    margin-bottom: 70px;
+    margin-left: 60px;
+    line-height: 1.6;
+}
+
+
+.div6{
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* margin: 50px 45px; */
+    margin-top: 110px;
+    margin-right: 50px;
+}
+
+.section3{
+    background-color: #F6F8FA;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.div7{
+    margin: 0 100px;
+}
+
+.section4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    /* background-size: auto; */
+}
+
+.section4 img{
+    max-width: 337.5px;
+}
+
+.section4 img:hover{
+    transform: scale(1.05);
+}
+
+.section5{
+    text-align: center;
+}
+
+.p1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.boton{
+    background-color: #0CB9E7;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: all 2s ease;
+}
+
+.boton:hover{
+    background-color: black;
+    color: #0CB9E7;
+    transform: scale(1.1);
+}
+
+.section6{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    /* margin-bottom: 100px; */
+    gap: 250px; 
+
+}
+
+h4{
+    text-align: center;
+}
+
+.div14{
+    text-align: justify;
+}
+
+.div15{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap:wrap; */
+    /* text-align: center; */
+}
+
+.div15 img{
+    max-width: 100px;
+}
+
+.div14 nav a{
+    text-decoration: none;
+}
+
+.nav-a{
+    background-color: rgb(65, 63, 63);
+    display: inline-block;
+    justify-content: center;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.nav-a:hover{
+    transform: scale(1.05);
+}
+
+
 
 /* FOOTER */
 
 footer{
+    background-color: #25272D;
+    text-align: center;
     color: rgb(201, 198, 198);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
 }
 
 footer nav a{
     text-decoration: none;
     color: rgb(201, 198, 198);
+    margin: 0px 10px;;
+}
+
+.pie{
+    display: flex;
+    gap: 10px;
+}
+
+.pie a:hover{
+    color: aqua;
+    transform: scale(1.05);
+}
+
+li{
+    text-align: center;
 }
