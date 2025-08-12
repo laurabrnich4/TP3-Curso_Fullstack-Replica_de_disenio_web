@@ -316,6 +316,7 @@ h5{
 
 .p2{
     background-color: #22242A;
+    color: white    ;
     border: 4px solid #2E2F36;
     padding: 12px 20px;
     margin-bottom: 15px;
@@ -331,6 +332,13 @@ h5{
     background-color: #00C2E4;
     color: rgb(236, 233, 233);
     font-size: 11px;
+}
+
+.go:hover{
+    background-color: black;
+    color: #0CB9E7;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 /* FOOTER */
